@@ -1,0 +1,23 @@
+{
+  "name": "guessinggame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GojoIsHere/GuessingGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GojoIsHere/GuessingGame/issues"
+  },
+  "homepage": "https://github.com/GojoIsHere/GuessingGame#readme",
+  "devDependencies": {
+    "testem": "^3.10.1"
+  }
+}
