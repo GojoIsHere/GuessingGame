@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link
+      rel="shortcut icon"
+      href="/assest/website_icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./js/guessing-game.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 id="title-msg">My Guessing Game</h1>
+      <h3 id="guess-msg">Guess a number between 1-100</h3>
+      <input
+        type="number"
+        value=""
+        placeholder="TYPE GUESS HERE"
+        id="num-input"
+        autofocus
+      />
+      <button id="submit-btn">Go!</button>
+
+      <ul id="list-items">
+        <li class="past-guess"></li>
+        <li class="past-guess"></li>
+        <li class="past-guess"></li>
+        <li class="past-guess"></li>
+        <li class="past-guess"></li>
+      </ul>
+      <button id="reset-btn">Reset</button>
+      <button id="hint-btn">Need a hint?</button>
+    </div>
+  </body>
 </html>
